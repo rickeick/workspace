@@ -1,21 +1,13 @@
-# Desktop
+# Workspace
 
-Meus mini projetos de aplicações e jogos em python utilizando `tkinter` e `pygame`
+Uma Área de Trabalho para os meus mini projetos em Python e Backup dos meus arquivos de Script e de Configuração de aplicações que eu comumente uso no Linux e no Windows.
 
-## Mini Projetos
-
-### Apps
-- bitcoin.pyw: Aplicação `tkinter` que permite acompanhar, em tempo real, o valor de mercado do bitcoin no brasil e outras informações úteis utilizando web-scraping com o `BeautifulSoup4`
-- file-viewer.pyw: Simples visualizador de arquivos de texto com explorador de arquivos integrado utilizando `tkinter`
-
-### Games
-- ping-pong.pyw: Clássico ping-pong para dois jogadores.
-- tic-tac-toe.pyw: Clássico jogo da velha para dois jogadores.
-- two-players.pyw: Coletânia de jogos para dois jogadores (ping-pong e tic-tac-toe) com adição de um menu inicial e alguns efeitos sonoros. Meu trabalho final de Algoritmo I.
-
-## Dependências
-
-Para executar essas aplicações e jogos é necessário a intalação de alguns pacotes python via pip. Isso pode ser feito executando no terminal:
-```
-pip install -r requirements.txt
-```
+## Python
+- arithmetic.py: Módulo com classes e funções utilizadas para cálculos aritméticos.
+- bitcoin.pyw: Aplicação `tkinter` que permite acompanhar, em tempo real, o valor de mercado do bitcoin no brasil e outras informações úteis utilizando web-scraping com o `BeautifulSoup4`.
+- client-tcp.py: Ferramenta CLI utilizada para criar um cliente TCP.
+- cryptographer.py: Ferramenta CLI utilizada para criptografia de mensagens.
+- file-viewer.pyw: Aplicação de um simples visualizador de arquivos de texto com explorador de arquivos integrado utilizando `tkinter`.
+- geometry.py: Módulo com classes e funções utilizadas para cálculos geométricos.
+- server-tcp.py: Ferramenta CLI utilizada para criar um servidor TCP.
+- thief.py: Ferramenta CLI utilizada para mostrar a senha de redes wi-fis salvas no computador
