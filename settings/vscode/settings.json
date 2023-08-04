@@ -1,0 +1,28 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+ Experimental",    
+    
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.banner": "never",
+
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+
+    "python.defaultInterpreterPath": "python3",
+
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "",
+            "path": "",
+            "default": true
+        }
+    ]
+}

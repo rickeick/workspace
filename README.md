@@ -16,3 +16,9 @@ Uma Área de Trabalho para os meus mini projetos em Python e Backup dos meus arq
 - commit.sh: Script de automação de commit e push do git.
 - initialize.sh: Script de automação para inicialização de repositórios.
 - pos-install.sh: Script de automação de pós instalação do Pop! OS.
+
+## Settings
+- Bash
+- IDLE Python
+- Windows Terminal
+- Visual Studio Code
