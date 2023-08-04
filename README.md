@@ -11,3 +11,8 @@ Uma Área de Trabalho para os meus mini projetos em Python e Backup dos meus arq
 - geometry.py: Módulo com classes e funções utilizadas para cálculos geométricos.
 - server-tcp.py: Ferramenta CLI utilizada para criar um servidor TCP.
 - thief.py: Ferramenta CLI utilizada para mostrar a senha de redes wi-fis salvas no computador
+
+## Scripts
+- commit.sh: Script de automação de commit e push do git.
+- initialize.sh: Script de automação para inicialização de repositórios.
+- pos-install.sh: Script de automação de pós instalação do Pop! OS.
