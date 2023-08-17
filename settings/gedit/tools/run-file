@@ -1,0 +1,30 @@
+#!/bin/sh
+# [Gedit Tool]
+# Name=Run File
+# Input=nothing
+# Output=output-panel
+# Applicability=all
+# Save-files=document
+# Shortcut=<Primary>r
+# Languages=
+
+
+DIR="$GEDIT_CURRENT_DOCUMENT_DIR"
+FILE="$GEDIT_CURRENT_DOCUMENT_PATH"
+
+if $( echo "$FILE" | grep -q "\.py$" ); then
+    gnome-terminal -- python3 "$FILE"
+fi
+
+if $( echo "$FILE" | grep -q "\.pyw$" ); then
+    python3 "$FILE"
+fi
+
+if $( echo "$FILE" | grep -q "\.sh$" ); then
+    bash "$FILE"
+fi
+
+if $( echo "$FILE" | grep -q "\.c$" ); then
+    gcc "$FILE" -o "main"
+    "$DIR/main"
+fi

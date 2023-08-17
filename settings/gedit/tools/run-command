@@ -1,0 +1,14 @@
+#!/bin/sh
+# [Gedit Tool]
+# Name=Run command
+# Comment=Execute a custom command and put its output in a new document
+# Input=nothing
+# Output=nothing
+# Applicability=all
+# Save-files=nothing
+# Languages=
+# Shortcut=F5
+
+cd "$GEDIT_CURRENT_DOCUMENT_DIR"
+eval $(zenity --entry --title="Run Command - Gedit" --text="Command to run:")
+

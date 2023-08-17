@@ -1,0 +1,15 @@
+#!/bin/sh
+# [Gedit Tool]
+# Name=Build File
+# Shortcut=<Primary>b
+# Input=nothing
+# Output=output-panel
+# Applicability=all
+# Save-files=document
+
+
+FILE="$GEDIT_CURRENT_DOCUMENT_PATH"
+
+if $( echo "$FILE" | grep -q "\.c$" ); then
+    gcc -c "$FILE" -o $( echo "$FILE" | sed "$ s|\.c|\.o|" )
+fi
