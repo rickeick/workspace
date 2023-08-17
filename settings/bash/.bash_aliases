@@ -7,10 +7,5 @@ alias install='sudo apt install'
 alias uninstall='sudo apt remove'
 
 # Aliases do Git
+alias add='git add'
 alias status='git status'
-alias push='git push origin main'
-alias branch='git branch -M main'
-alias origin='git remote add origin'
-alias github='git push -u origin main'
-alias commit='git add * && git commit -m'
-alias init='git init && touch .gitignore README.md'

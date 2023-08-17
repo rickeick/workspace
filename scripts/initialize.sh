@@ -2,7 +2,7 @@
 
 git init
 touch README.md
-cp ~/Scripts/LICENSE .
+cp $(echo "$0" | sed "s|/scripts/initialize.sh||")/LICENSE .
 
 if [[ ! -z $1 ]]; then 
     git branch -M main
