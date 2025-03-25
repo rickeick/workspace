@@ -1,34 +1,6 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        }
-    ],
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
@@ -66,7 +38,7 @@
             {
                 "name": "Python Shell",
                 "guid": "{02aa9ed2-3482-47c4-94f5-ed51775ceaaf}",
-                "commandline": "%USERPROFILE%\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+                "commandline": "%USERPROFILE%\\caminho\\para\\python.exe",
                 "backgroundImage": "%USERPROFILE%\\Pictures\\resources\\python.jpg",
                 "icon": "%USERPROFILE%\\Pictures\\resources\\python.ico",
                 "hidden": false
@@ -84,30 +56,9 @@
     "schemes": 
     [
         {
-            "background": "#0C0C0C",
-            "black": "#0C0C0C",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#3B78FF",
-            "brightCyan": "#61D6D6",
-            "brightGreen": "#16C60C",
-            "brightPurple": "#B4009E",
-            "brightRed": "#E74856",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#F9F1A5",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#CCCCCC",
-            "green": "#13A10E",
             "name": "Campbell",
-            "purple": "#881798",
-            "red": "#C50F1F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#C19C00"
-        },
-        {
-            "background": "#012456",
+            "background": "#0C0C0C",
+            "foreground": "#CCCCCC",
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#767676",
@@ -120,9 +71,7 @@
             "brightYellow": "#F9F1A5",
             "cursorColor": "#FFFFFF",
             "cyan": "#3A96DD",
-            "foreground": "#CCCCCC",
             "green": "#13A10E",
-            "name": "Campbell Powershell",
             "purple": "#881798",
             "red": "#C50F1F",
             "selectionBackground": "#FFFFFF",
@@ -130,7 +79,32 @@
             "yellow": "#C19C00"
         },
         {
+            "name": "Campbell Powershell",
+            "background": "#012456",
+            "foreground": "#CCCCCC",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "green": "#13A10E",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "name": "One Half Dark",
             "background": "#282C34",
+            "foreground": "#DCDFE4",
             "black": "#282C34",
             "blue": "#61AFEF",
             "brightBlack": "#5A6374",
@@ -143,9 +117,7 @@
             "brightYellow": "#E5C07B",
             "cursorColor": "#FFFFFF",
             "cyan": "#56B6C2",
-            "foreground": "#DCDFE4",
             "green": "#98C379",
-            "name": "One Half Dark",
             "purple": "#C678DD",
             "red": "#E06C75",
             "selectionBackground": "#FFFFFF",
@@ -153,7 +125,9 @@
             "yellow": "#E5C07B"
         },
         {
+            "name": "One Half Light",
             "background": "#FAFAFA",
+            "foreground": "#383A42",
             "black": "#383A42",
             "blue": "#0184BC",
             "brightBlack": "#4F525D",
@@ -166,9 +140,7 @@
             "brightYellow": "#E4C07A",
             "cursorColor": "#4F525D",
             "cyan": "#0997B3",
-            "foreground": "#383A42",
             "green": "#50A14F",
-            "name": "One Half Light",
             "purple": "#A626A4",
             "red": "#E45649",
             "selectionBackground": "#FFFFFF",
@@ -176,7 +148,9 @@
             "yellow": "#C18301"
         },
         {
+            "name": "Solarized Dark",
             "background": "#002B36",
+            "foreground": "#839496",
             "black": "#002B36",
             "blue": "#268BD2",
             "brightBlack": "#073642",
@@ -189,9 +163,7 @@
             "brightYellow": "#657B83",
             "cursorColor": "#FFFFFF",
             "cyan": "#2AA198",
-            "foreground": "#839496",
             "green": "#859900",
-            "name": "Solarized Dark",
             "purple": "#D33682",
             "red": "#DC322F",
             "selectionBackground": "#FFFFFF",
@@ -199,7 +171,9 @@
             "yellow": "#B58900"
         },
         {
+            "name": "Solarized Light",
             "background": "#FDF6E3",
+            "foreground": "#657B83",
             "black": "#002B36",
             "blue": "#268BD2",
             "brightBlack": "#073642",
@@ -212,9 +186,7 @@
             "brightYellow": "#657B83",
             "cursorColor": "#002B36",
             "cyan": "#2AA198",
-            "foreground": "#657B83",
             "green": "#859900",
-            "name": "Solarized Light",
             "purple": "#D33682",
             "red": "#DC322F",
             "selectionBackground": "#FFFFFF",
@@ -222,7 +194,9 @@
             "yellow": "#B58900"
         },
         {
+            "name": "Tango Dark",
             "background": "#000000",
+            "foreground": "#D3D7CF",
             "black": "#000000",
             "blue": "#3465A4",
             "brightBlack": "#555753",
@@ -235,9 +209,7 @@
             "brightYellow": "#FCE94F",
             "cursorColor": "#FFFFFF",
             "cyan": "#06989A",
-            "foreground": "#D3D7CF",
             "green": "#4E9A06",
-            "name": "Tango Dark",
             "purple": "#75507B",
             "red": "#CC0000",
             "selectionBackground": "#FFFFFF",
@@ -245,7 +217,9 @@
             "yellow": "#C4A000"
         },
         {
+            "name": "Tango Light",
             "background": "#FFFFFF",
+            "foreground": "#555753",
             "black": "#000000",
             "blue": "#3465A4",
             "brightBlack": "#555753",
@@ -258,9 +232,7 @@
             "brightYellow": "#FCE94F",
             "cursorColor": "#000000",
             "cyan": "#06989A",
-            "foreground": "#555753",
             "green": "#4E9A06",
-            "name": "Tango Light",
             "purple": "#75507B",
             "red": "#CC0000",
             "selectionBackground": "#FFFFFF",
@@ -268,7 +240,9 @@
             "yellow": "#C4A000"
         },
         {
+            "name": "Vintage",
             "background": "#000000",
+            "foreground": "#C0C0C0",
             "black": "#000000",
             "blue": "#000080",
             "brightBlack": "#808080",
@@ -281,9 +255,7 @@
             "brightYellow": "#FFFF00",
             "cursorColor": "#FFFFFF",
             "cyan": "#008080",
-            "foreground": "#C0C0C0",
             "green": "#008000",
-            "name": "Vintage",
             "purple": "#800080",
             "red": "#800000",
             "selectionBackground": "#FFFFFF",

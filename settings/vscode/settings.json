@@ -1,7 +1,11 @@
 {
+    "window.commandCenter": false,
+    "files.autoSave": "onWindowChange",
+    
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Default Dark+ Experimental",    
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.layoutControl.enabled": false,
     
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -9,19 +13,38 @@
     "security.workspace.trust.emptyWindow": false,
     "security.workspace.trust.banner": "never",
 
-    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmPasteNative": false,
     "explorer.confirmDragAndDrop": false,
+    
+    "editor.wordWrapColumn": 110,
     "editor.minimap.enabled": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.stickyScroll.enabled": false,
 
+    "files.exclude": {
+        "**/CVS": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/.git": true,
+        "**/*.meta": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true
+    },
+
+    "extensions.ignoreRecommendations": true,
     "python.defaultInterpreterPath": "python3",
-
+    "C_Cpp.default.compilerPath": "C:/caminho/para/gcc.exe",
+    "php.validate.executablePath": "C:/caminho/para/php.exe",
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.inlayHints.parameterNames.enabled": "none",
     "java.compile.nullAnalysis.mode": "automatic",
     "java.configuration.runtimes": [
         {
             "name": "",
-            "path": "",
+            "path": "C:/caminho/para/jdk",
             "default": true
         }
     ]
