@@ -1,11 +1,27 @@
 {
     "window.commandCenter": false,
+
     "files.autoSave": "onWindowChange",
+    "files.associations": {
+        ".htaccess": "plaintext",
+        "*.pip": "pip-requirements"
+    },
+    "files.exclude": {
+        "**/CVS": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/.git": true,
+        "**/*.meta": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true
+    },
     
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Default High Contrast",
     "workbench.layoutControl.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
     
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -22,17 +38,7 @@
     "editor.minimap.enabled": false,
     "editor.wordWrap": "wordWrapColumn",
     "editor.stickyScroll.enabled": false,
-
-    "files.exclude": {
-        "**/CVS": true,
-        "**/.hg": true,
-        "**/.svn": true,
-        "**/.git": true,
-        "**/*.meta": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/__pycache__": true
-    },
+    "editor.guides.indentation": false,
 
     "extensions.ignoreRecommendations": true,
     "python.defaultInterpreterPath": "python3",
@@ -47,5 +53,6 @@
             "path": "C:/caminho/para/jdk",
             "default": true
         }
-    ]
+    ],
+    "git.confirmSync": false
 }
